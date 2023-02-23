@@ -2,8 +2,8 @@
 
 void setup() {
 
-  println(printPartOfWord("København", 1, 4));
-  
+  String output = printPartOfWord("København", 1, 4);
+  println(output);
 }
 
 String printPartOfWord(String input, int start, int end){
